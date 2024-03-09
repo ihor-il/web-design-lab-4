@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.header-link {
+    font-family: 'Lora', serif;
+    font-size: 28px;
+}
+
+.title {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.title-secondary {
+    font-family: 'Lora', serif;
+    font-size: 32px;
+}
+
+.main-text {
+    font-family: "Source Sans 3", sans-serif;
+	font-size: 28px;
+	font-weight: lighter;
+	margin-bottom: 24px;
+}
+
+.button-text {
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 24px;
+}
