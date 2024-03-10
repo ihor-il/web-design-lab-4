@@ -1,6 +1,6 @@
 :root {
     --primary: #c3efae;
-	--primary-50: opacity(var(--primary), 50%);
+	--primary-50: #c3efae7f;
 	--on-primary: #000;
 	--secondary: #EFAED0;
 	--accent: #88A77A;
@@ -12,4 +12,12 @@
 
 .secondary-bg {
 	background-color: var(--secondary);
+}
+
+.primary-border {
+	border: 2px solid var(--primary);
+}
+
+.primary-50-border {
+	border: 2px solid var(--primary-50);
 }
