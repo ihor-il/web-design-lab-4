@@ -18,6 +18,10 @@
 	background-color: var(--primary);
 }
 
+.primary-50-bg {
+	background-color: var(--primary-50);
+}
+
 .secondary {
 	color: var(--secondary);
 }

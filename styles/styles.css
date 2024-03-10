@@ -9,6 +9,7 @@
 @import './sections/landing.css';
 @import './sections/quick_links.css';
 @import './sections/about_us.css';
+@import './sections/advantages.css';
 @import './sections/footer.css';
 
 body {
