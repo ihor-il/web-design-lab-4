@@ -1,16 +1,17 @@
 @import './elements/input.css';
 @import './elements/button.css';
+@import './elements/page-selector.css';
 
 @import './colors.css';
 @import './fonts.css';
 @import './material-icons.css';
 
-@import './sections/header.css';
-@import './sections/landing.css';
-@import './sections/quick_links.css';
-@import './sections/about_us.css';
-@import './sections/advantages.css';
-@import './sections/footer.css';
+@import './sections/styles.css';
+
+
+html {
+	scroll-behavior: smooth;
+}
 
 body {
     margin: 0;

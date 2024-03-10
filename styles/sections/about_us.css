@@ -3,6 +3,13 @@
     flex-direction: row;
 	gap: 48px;
     padding: 0 96px;
+    padding-top: 12px;
+}
+
+.about-us .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-us .text > :not(:last-child) {

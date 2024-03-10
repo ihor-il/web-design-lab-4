@@ -4,6 +4,7 @@
 	--on-primary: #000;
 	--secondary: #EFAED0;
 	--accent: #88A77A;
+	--gray: #bababa;
 }
 
 .primary-border {
@@ -15,6 +16,12 @@
 }
 
 .primary-bg {
+	transition: background-color .2s;
+	background-color: var(--primary);
+}
+
+.primary-bg-hover:hover {
+	transition: background-color .2s;
 	background-color: var(--primary);
 }
 
