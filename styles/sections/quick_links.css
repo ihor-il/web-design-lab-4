@@ -1,0 +1,35 @@
+.quick-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	padding: 48px 96px;
+}
+
+.quick-links .link {
+	transition: box-shadow .3s;
+	height: 350px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.quick-links .link:hover {
+	box-shadow: 0 0 24px black;
+}
+
+.quick-links .link img {
+	max-height: 100%;
+}
+
+.quick-links .link span {
+	height: fit-content;
+	width: 350px;
+	padding: 8px 0;
+
+	text-align: center;
+
+	position: relative;
+	top: -80px;
+}
