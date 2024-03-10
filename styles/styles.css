@@ -7,6 +7,7 @@
 @import './material-icons.css';
 
 @import './sections/styles.css';
+@import 'helpers/flex.css';
 
 
 html {
@@ -28,4 +29,8 @@ h1, h2, p {
 a {
 	text-decoration: none;
 	color: var(--on-primary);
+}
+
+header, section, footer {
+	padding: 24px 96px;
 }

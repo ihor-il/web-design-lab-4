@@ -8,17 +8,17 @@
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <div class="logo">
             <img src="./assets/images/logo.png" alt="Floris logo">
         </div>
-        <nav class="links header-link">
+        <nav class="links gap-48 header-link">
             <a href="#catalogue">Каталог</a>
             <a href="#about-us">Про нас</a>
             <a href="#">Збери букет</a>
             <a href="#">Контакти</a>
         </nav>
-        <div class="icons">
+        <div class="icons gap-24">
             <a href="#">
                 <span class="material-symbols-outlined icon-48">search</span>
             </a>
@@ -29,24 +29,25 @@
     </header>
 
     <main>
-        <section class="landing">
-            <div class="text">
+        <section id="landing" class="flex-row">
+            <div class="text flex-column gap-24">
                 <span class="title">Букет з троянд "Довгоочікуване щастя"</span>
                 <span class="main-text">
                     Ніжність та витончений шик у букеті з троянд - гарний вибір для коханої людини
                 </span>
-                <div class="buttons">
+                <div class="flex-row gap-24">
                     <button class="button secondary-bg button-text gray-shadow-hover">В кошик</button>
-                    <a role="button" href="#catalogue" class="button primary-border button-text primary-bg-hover">До каталогу</a>
+                    <a role="button" href="#catalogue" class="button primary-border button-text primary-bg-hover">До
+                        каталогу</a>
                 </div>
             </div>
-            <div class="graphics">
-                <div class="section">
+            <div class="flex-row graphics">
+                <div class="flex-column section">
                     <img src="./assets/images/bouquet_1.png" alt="Bouquet 1">
                     <img src="./assets/images/bouquet_2.png" alt="Bouquet 2">
                     <img src="./assets/images/bouquet_3.png" alt="Bouquet 3">
                 </div>
-                <div class="section circles">
+                <div class="flex-column section circles">
                     <div class="circle small secondary-bg"></div>
                     <div class="circle medium secondary-bg"></div>
                     <div class="circle small secondary-bg"></div>
@@ -55,22 +56,22 @@
                 <!-- <img class="big-img" src="./assets/images/big_bouquet.png" alt="Big bouquet"> -->
             </div>
         </section>
-        <section class="quick-links">
-            <div class="link">
+        <section id="quick-links" class="flex-row">
+            <div class="link flex-column">
                 <img src="./assets/images/quick_link_1.png" alt="Quick link 1">
                 <span class="primary-bg title-secondary">Букети</span>
             </div>
-            <div class="link">
+            <div class="link flex-column">
                 <img src="./assets/images/quick_link_2.png" alt="Quick link 2">
                 <span class="primary-bg title-secondary">Живі квіти</span>
             </div>
-            <div class="link">
+            <div class="link flex-column">
                 <img src="./assets/images/quick_link_3.png" alt="Quick link 3">
                 <span class="primary-bg title-secondary">Конструктор букетів</span>
             </div>
         </section>
-        <section class="about-us" id="about-us">
-            <div class="text">
+        <section id="about-us" class="flex-row gap-48">
+            <div class="flex-column text">
                 <h2 class="title">Про нас</h2>
                 <p class="main-text">
                     Яких квітів тут лише немає! І садові, і польові, і кімнатні у глиняних горщиках. Очі розбігаються
@@ -84,7 +85,7 @@
             </div>
             <img id="ladies" src="./assets/images/ladies.png" alt="Ladies">
             <img id="vector" src="./assets/vectors/vector_1.svg">
-            <div class="socials">
+            <div class="flex-column socials gap-24">
                 <a href="#">
                     <img src="./assets/icons/facebook.svg" alt="Facebook">
                 </a>
@@ -99,89 +100,89 @@
                 </a>
             </div>
         </section>
-        <section class="advantages primary-50-bg">
+        <section id="advantages" class="primary-50-bg">
             <h2 class="title-secondary">Працюємо для вас</h2>
-            <div class="content">
-                <div class="element">
+            <div class="flex-row gap-48 content">
+                <div class="flex-column element">
                     <img src="./assets/icons/bouqete.svg" alt="">
                     <span class="main-text">Конструктор унікального букета</span>
                 </div>
-                <div class="element">
+                <div class="flex-column element">
                     <img src="./assets/icons/shopping_cart.svg" alt="">
                     <span class="main-text">Безкоштовна доставка по місту до 2-х годин</span>
                 </div>
-                <div class="element">
+                <div class="flex-column element">
                     <img src="./assets/icons/flower.svg" alt="">
                     <span class="main-text">Наявність кімнатних рослин</span>
                 </div>
-                <div class="element">
+                <div class="flex-column element">
                     <img src="./assets/icons/gift.svg" alt="">
                     <span class="main-text">Вибір квітів для коханих, мам та друзів</span>
                 </div>
             </div>
         </section>
-        <section class="catalogue" id="catalogue">
+        <section id="catalogue">
             <h2 class="title">Каталог</h2>
-            <div class="items">
-                <div class="item">
+            <div class="flex-row items">
+                <div class="flex-column item">
                     <img src="./assets/images/catalogue/img_1.png" alt="Букет 25 троянд мікс">
-                    <div class="content title-secondary">
+                    <div class="flex-column content title-secondary">
                         <p>Букет 25 троянд мікс</p>
                         <p>999 грн</p>
                         <button class="button button-text primary-border primary-bg-hover">В кошик</button>
                     </div>
                 </div>
-                <div class="item">
+                <div class="flex-column item">
                     <img src="./assets/images/catalogue/img_2.png" alt="Букет 25 червоних троянд">
-                    <div class="content title-secondary">
+                    <div class="flex-column content title-secondary">
                         <p>Букет 25 червоних троянд</p>
                         <p>999 грн</p>
                         <button class="button button-text primary-border primary-bg-hover">В кошик</button>
                     </div>
                 </div>
-                <div class="item">
+                <div class="flex-column item">
                     <img src="./assets/images/catalogue/img_3.png" alt="Букет 51 троянда мікс">
-                    <div class="content title-secondary">
+                    <div class="flex-column content title-secondary">
                         <p>Букет 51 троянд мікс</p>
                         <p>999 грн</p>
                         <button class="button button-text primary-border primary-bg-hover">В кошик</button>
                     </div>
                 </div>
-                <div class="item">
+                <div class="flex-column item">
                     <img src="./assets/images/catalogue/img_4.png" alt="Букет 101 троянда мікс">
-                    <div class="content title-secondary">
+                    <div class="flex-column content title-secondary">
                         <p>Букет 101 троянда мікс</p>
                         <p>999 грн</p>
                         <button class="button button-text primary-border primary-bg-hover">В кошик</button>
                     </div>
                 </div>
-                <div class="item">
+                <div class="flex-column item">
                     <img src="./assets/images/catalogue/img_5.png" alt="Букет 51 ранункулюс мікс">
-                    <div class="content title-secondary">
+                    <div class="flex-column content title-secondary">
                         <p>Букет 51 ранункулюс мікс</p>
                         <p>999 грн</p>
                         <button class="button button-text primary-border primary-bg-hover">В кошик</button>
                     </div>
                 </div>
-                <div class="item">
+                <div class="flex-column item">
                     <img src="./assets/images/catalogue/img_6.png" alt="Букет 51 ірис мікс">
-                    <div class="content title-secondary">
+                    <div class="flex-column content title-secondary">
                         <p>Букет 51 ірис мікс</p>
                         <p>999 грн</p>
                         <button class="button button-text primary-border primary-bg-hover">В кошик</button>
                     </div>
                 </div>
-                <div class="item">
+                <div class="flex-column item">
                     <img src="./assets/images/catalogue/img_7.png" alt="Букет 35 рожевих тюльпанів">
-                    <div class="content title-secondary">
+                    <div class="flex-column content title-secondary">
                         <p>Букет 35 рожевих тюльпанів</p>
                         <p>999 грн</p>
                         <button class="button button-text primary-border primary-bg-hover">В кошик</button>
                     </div>
                 </div>
-                <div class="item">
+                <div class="flex-column item">
                     <img src="./assets/images/catalogue/img_8.png" alt="Букет 101 червона троянда">
-                    <div class="content title-secondary">
+                    <div class="flex-column content title-secondary">
                         <p>Букет 101 червона троянда</p>
                         <p>999 грн</p>
                         <button class="button button-text primary-border primary-bg-hover">В кошик</button>
@@ -202,7 +203,7 @@
                 </span>
             </div>
         </section>
-        <section class="reviews primary-50-bg">
+        <section id="reviews" class="primary-50-bg flex-column gap-24">
             <h2 class="title">Відгуки</h2>
             <div class="page-selector">
                 <span class="material-symbols-outlined">
@@ -222,38 +223,67 @@
             <textarea class="input multiline" placeholder="Ваш відгук:"></textarea>
             <button class="button button-text secondary-bg gray-shadow-hover">Відправити</button>
         </section>
+        <section id="delivery" class="flex-column gap-48">
+            <h2 class="title">Доставка і оплата</h2>
+            <div class="flex-row items">
+                <div class="item flex-column">
+                    <div class="number title primary-bg gray-shadow">1</div>
+                    <div class="main-text">Ви замовляєте букет через каталог</div>
+                </div>
+                <div class="item flex-column">
+                    <div class="number title primary-bg gray-shadow">2</div>
+                    <div class="main-text">Ви оплачуєте товар через картку VISA або MC, або Приват24</div>
+                </div>
+                <div class="item flex-column">
+                    <div class="number title primary-bg gray-shadow">3</div>
+                    <div class="main-text">Вам передзвонять наші менеджери, якщо потрібно щось уточнити</div>
+                </div>
+                <div class="item flex-column">
+                    <div class="number title primary-bg gray-shadow">4</div>
+                    <div class="main-text">Надсилаємо фото зібраного букета, щоб узгодити все</div>
+                </div>
+                <div class="item flex-column">
+                    <div class="number title primary-bg gray-shadow">5</div>
+                    <div class="main-text">Доставляємо букет одержувачу протягом 2-х годин</div>
+                </div>
+                <div class="item flex-column">
+                    <div class="number title primary-bg gray-shadow">6</div>
+                    <div class="main-text">Сповістимо Вас дзвінком або повідомленням про доставку букета</div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer">
+    <footer class="primary-bg flex-column gap-48">
         <div class="logo">
             <img src="./assets/images/logo.png" alt="Floris logo">
         </div>
-        <div class="links main-text">
-            <div class="section">
+        <div class="links flex-row gap-48 main-text">
+            <div class="flex-column section">
                 <span class="title-secondary">Контакти</span>
                 <a href="tel:+380950000000">(095) 000 00 00</a>
                 <a href="tel:+380970000000">(097) 000 00 00</a>
                 <span>Ми працюємо цілодобово</span>
             </div>
-            <div class="section">
+            <div class="flex-column section">
                 <span class="title-secondary">Інформація </span>
                 <a href="#">Про нас</a>
                 <a href="#">Хіти продажу</a>
                 <a href="#">Відгуки</a>
                 <a href="#">Доставка і оплата</a>
             </div>
-            <div class="section">
+            <div class="flex-column section">
                 <span class="title-secondary">Каталог</span>
                 <a href="#">Збери свій букет</a>
                 <a href="#">Живі квіти</a>
                 <a href="#">Кімнатні рослини</a>
             </div>
-            <div class="section">
+            <div class="flex-column section">
                 <div class="subscription">
                     <input class="input" type="email" placeholder="Введіть ваш e-mail">
                     <button class="button button-text secondary-bg gray-shadow-hover">Підписатися</button>
                 </div>
-                <div class="section socials">
+                <div class="flex-row gap-24 socials">
                     <a href="#">
                         <img src="./assets/icons/facebook.svg" alt="Facebook">
                     </a>

@@ -1,47 +1,37 @@
-.catalogue {
-	padding: 48px 96px;	
-}
-
-.catalogue > h2 {
+#catalogue > h2 {
 	margin-bottom: 48px;
 }
 
-.catalogue .items {
-	display: flex;
-	flex-direction: row;
+#catalogue .items {
 	flex-wrap: wrap;
 	gap: 36px;
 	justify-content: space-between;
 	margin-bottom: 48px;
 }
 
-.catalogue .item {
+#catalogue .item {
 	width: 400px;
 	height: 700px;
 	box-shadow: 0 0 25px #0000007f;
 
-	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 }
 
-.catalogue .item img {
+#catalogue .item img {
 	width: 400px;
 	height: 400px;
 	margin-bottom: 48px;
 }
 
-.catalogue .item .content {
+#catalogue .item .content {
 	height: 100%;
 	margin-bottom: 24px;
 	padding: 0 48px;
 	text-align: center;
 
-	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 }
 
-.catalogue .item .content button {
+#catalogue .item .content button {
 	width: 100%;
 }

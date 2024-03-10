@@ -1,25 +1,13 @@
-.advantages {
-	padding: 24px 96px;
-}
-
-.advantages > h2 {
+#advantages > h2 {
 	margin-bottom: 48px;
 }
 
-.advantages img {
+#advantages img {
 	width: 96px;
 	height: 96px;
 }
 
-.advantages .content {
-	display: flex;
-	flex-direction: row;
-	gap: 48px;
-}
-
-.advantages .element {
-	display: flex;
-	flex-direction: column;
+#advantages .element {
 	flex: 1 1 0;
 	gap: 16px;
 

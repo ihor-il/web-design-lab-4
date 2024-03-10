@@ -1,22 +1,15 @@
-.reviews {
-    padding: 48px 96px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.reviews .input {
+#reviews .input {
     width: 100%;
 }
 
-.reviews .input.multiline {
+#reviews .input.multiline {
     min-height: 60px;
     padding-top: 12px;
     height: 340px;
     resize: vertical;
 }
 
-.reviews .button {
+#reviews .button {
     transition: box-shadow 0.2s;
     width: 200px;
 }

@@ -1,74 +1,55 @@
-.landing {
+#landing {
+	padding: 0;
     padding-top: 48px;
     padding-left: 96px;
-
-    display: flex;
-    flex-direction: row;
 }
 
-.landing .text {
-    display: flex;
-    flex-direction: column;
+#landing .text {
 	justify-content: center;
-    gap: 24px;
 }
 
-.landing .text .buttons {
-    display: flex;
-    gap: 24px;
-}
-
-.landing .text .button {
+#landing .text .button {
     width: 200px;
 }
 
-.landing .circle {
+#landing .circle {
 	border-radius: 100%;
 }
 
-.landing .graphics {
+#landing .graphics {
     overflow: hidden;
-
-	display: flex;
-	flex-direction: row;
 	justify-content: center;
-
-    width: 50%;
 }
 
-.landing .graphics .section {
+#landing .graphics .section {
 	position: relative;
-
-    display: flex;
-    flex-direction: column;
 	justify-content: space-around;
 	align-items: end;
-    gap: 48px;
 
     width: fit-content;
 }
 
-.landing .graphics .section :,
-.landing .graphics .section :last-child {
+#landing .graphics .section :,
+#landing .graphics .section :last-child {
 	/* margin-left: 24px; */
 }
 
-.landing .graphics .section img {
+#landing .graphics .section img {
     width: 160px;
     height: 160px;
 }
 
-.landing .section.circles .small {
+#landing .section.circles .small {
 	width: 48px;
 	height: 48px;
 }
 
-.landing .section.circles .medium {
+#landing .section.circles .medium {
 	width: 96px;
 	height: 96px;
 }
 
-.landing .graphics .big-circle {
+#landing .graphics .big-circle {
 	position: absolute;
 	width: 1000px;
 	height: 1000px;
@@ -78,7 +59,7 @@
 	z-index: -1;
 }
 
-.landing .graphics .big-img {
+#landing .graphics .big-img {
 	position: absolute;
 	max-width: 100%;
 	max-height: 100%;

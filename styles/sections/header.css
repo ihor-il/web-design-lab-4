@@ -1,34 +1,30 @@
-.header {
+header {
 	height: 128px;
 
 	background-color: var(--primary);
 
 	display: flex;
 	flex-direction: row;
-
-	padding: 0 96px;
 }
 
-.header > * {
+header > * {
 	display: flex;
 	flex: 1 0 0;
 	flex-direction: row;
 	align-items: center;
 }
 
-.header > .logo > img {
+header > .logo > img {
 	height: 100px;
 	width: 200px;
 }
 
-.header > .links {
+header > .links {
 	flex: auto 1 1;
 	justify-content: center;
-	gap: 48px;
 	padding:  0 36px;
 }
 
-.header > .icons {
+header > .icons {
 	justify-content: end;
-	gap: 24px;
 }

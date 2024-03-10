@@ -1,38 +1,30 @@
-.about-us {
-    display: flex;
-    flex-direction: row;
-	gap: 48px;
+#about-us {
     padding: 0 96px;
     padding-top: 12px;
 }
 
-.about-us .text {
-    display: flex;
-    flex-direction: column;
+#about-us .text {
     justify-content: center;
 }
 
-.about-us .text > :not(:last-child) {
+#about-us .text > :not(:last-child) {
     margin-bottom: 24px;
 }
 
-.about-us #ladies {
+#about-us #ladies {
     width: 700px;
 }
 
-.about-us #vector {
+#about-us #vector {
 	position: absolute;
 	z-index: -1;
 	right: 0;
 }
 
-.about-us .socials {
-    display: flex;
-    flex-direction: column;
-	gap: 24px;
+#about-us .socials {
 	justify-content: center;
 }
 
-.about-us .socials img {
+#about-us .socials img {
     filter: invert(100%);
 }

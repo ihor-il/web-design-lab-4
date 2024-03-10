@@ -1,64 +1,44 @@
-.footer {
-	background-color: var(--primary);
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 48px;
-
-	padding: 48px 96px;
+footer {
+    align-items: center;
 }
 
-.footer a:hover {
-	text-decoration: underline;
+footer a:hover {
+    text-decoration: underline;
 }
 
-.footer .logo {
-	display: flex;
-	justify-content: center;
+footer .logo {
+    display: flex;
+    justify-content: center;
 }
 
-.footer .logo > img {
-	height: 128px;
+footer .logo > img {
+    height: 128px;
 }
 
-.footer .links {
-	display: flex;
-	flex-direction: row;
-	gap: 48px;
+footer .section > *:first-child {
+    padding-bottom: 24px;
 }
 
-.footer .section {
-	display: flex;
-	flex-direction: column;
+footer .subscription {
+    position: relative;
 }
 
-.footer .section > *:first-child {
-	padding-bottom: 24px;
+footer .subscription .input {
+    border-radius: 100px;
+    width: 600px;
 }
 
-.footer .subscription {
-	position: relative;
+footer .subscription .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 48px;
 }
 
-.footer .subscription .input {
-	border-radius: 100px;
-	width: 600px;
+footer .socials {
+    justify-content: center;
 }
 
-.footer .subscription .button {
-	position: absolute;
-	right: 0;
-	top: 0;
-	padding: 0 48px;
-}
-
-.footer .socials {
-	flex-direction: row;
-	justify-content: center;
-	gap: 24px;
-}
-
-.footer .socials img {
-	filter: invert(100%);
+footer .socials img {
+    filter: invert(100%);
 }
