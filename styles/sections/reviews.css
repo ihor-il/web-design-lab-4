@@ -1,3 +1,7 @@
+#reviews {
+    position: relative;
+}
+
 #reviews .input {
     width: 100%;
 }
@@ -12,4 +16,42 @@
 #reviews .button {
     transition: box-shadow 0.2s;
     width: 200px;
+}
+
+#reviews .review-box .item {
+    width: 1200px;
+    gap: 64px
+}
+
+#reviews .review-box .item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+#reviews .review-box .item line {
+    width: 60px;
+    border: 1px solid var(--on-primary);
+}
+
+#reviews .review-box .item .text {
+    gap: 10px;
+}
+
+#reviews .review-box .item:nth-child(2) {
+    position: relative;
+    left: 20%;
+}
+
+#review-ornament-left {
+    width: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 45%;
+}
+
+#review-ornament-right {
+    width: 350px;
+    position: absolute;
+    right: 0;
 }
