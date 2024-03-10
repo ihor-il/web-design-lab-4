@@ -8,6 +8,7 @@
 @import './sections/header.css';
 @import './sections/landing.css';
 @import './sections/quick_links.css';
+@import './sections/about_us.css';
 @import './sections/footer.css';
 
 body {
@@ -16,4 +17,8 @@ body {
 
 * {
 	box-sizing: border-box;
+}
+
+h1, h2, p {
+	margin: unset;
 }

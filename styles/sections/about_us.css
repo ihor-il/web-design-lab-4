@@ -1,0 +1,31 @@
+.about-us {
+    display: flex;
+    flex-direction: row;
+	gap: 48px;
+    padding: 0 96px;
+}
+
+.about-us .text > :not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.about-us #ladies {
+    width: 700px;
+}
+
+.about-us #vector {
+	position: absolute;
+	z-index: -1;
+	right: 0;
+}
+
+.about-us .socials {
+    display: flex;
+    flex-direction: column;
+	gap: 24px;
+	justify-content: center;
+}
+
+.about-us .socials img {
+    filter: invert(100%);
+}

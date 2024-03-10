@@ -9,6 +9,7 @@
 .title {
     font-family: 'Lora', serif;
     font-size: 48px;
+    font-weight: normal;
     line-height: 72px;
 }
 
@@ -21,6 +22,10 @@
     font-family: "Source Sans 3", sans-serif;
 	font-size: 28px;
 	font-weight: lighter;
+}
+
+p.main-text:not(:last-child) {
+    margin-bottom: 24px;
 }
 
 .button-text {
