@@ -36,3 +36,8 @@
 .secondary-bg {
 	background-color: var(--secondary);
 }
+
+.gray-shadow-hover:hover {
+	transition: box-shadow .2s;
+	box-shadow: 0 0 8px var(--gray);
+}

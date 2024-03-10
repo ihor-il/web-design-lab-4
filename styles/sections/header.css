@@ -9,11 +9,6 @@
 	padding: 0 96px;
 }
 
-.header a {
-	text-decoration: none;
-	color: var(--on-primary);
-}
-
 .header > * {
 	display: flex;
 	flex: 1 0 0;
