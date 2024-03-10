@@ -5,3 +5,11 @@
 	--secondary: #EFAED0;
 	--accent: #88A77A;
 }
+
+.secondary {
+	color: var(--secondary);
+}
+
+.secondary-bg {
+	background-color: var(--secondary);
+}

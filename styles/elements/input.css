@@ -1,0 +1,26 @@
+:root {
+	--input-font-family: "Source Sans 3", sans-serif;
+	--input-font-size: 28px;
+	--input-font-weight: lighter;
+}
+
+.input {
+	font-family: var(--input-font-family);
+	font-size: var(--input-font-size);
+	font-weight: var(--input-font-weight);
+
+	padding-left: 24px;
+
+	border: none;
+	border-radius: 16px;
+
+	width: 400px;
+	height: 60px;
+}
+
+.footer .section input::placeholder {
+	font-family: var(--input-font-family);
+	font-size: var(--input-font-size);
+	font-weight: var(--input-font-weight);
+	filter: opacity(75%);
+}

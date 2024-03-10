@@ -1,8 +1,17 @@
 @import './colors.css';
 @import './fonts.css';
 @import './material-icons.css';
-@import './header.css';
+
+@import './sections/header.css';
+@import './sections/footer.css';
+
+@import './elements/input.css';
+@import './elements/button.css';
 
 body {
-	margin: 0;
+    margin: 0;
+}
+
+* {
+	box-sizing: border-box;
 }
